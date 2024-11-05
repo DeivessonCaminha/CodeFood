@@ -1,0 +1,17 @@
+@media (min-width: 600px){
+    
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .contentFood, .contentDrinks, .contentDessert{
+        width: 90%;
+        justify-content: center;
+        justify-content: space-evenly;
+        
+    }
+}

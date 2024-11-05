@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html{
-    height: 100vh;
+    text-decoration: none;
+    font-family: "poppins";
 }
 
 body{
@@ -17,10 +15,17 @@ header{
     height: 100px;
     background-color: #EE0707;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0;
+}
+
+header nav{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 ion-icon{
@@ -30,19 +35,28 @@ ion-icon{
 }
 
 main{
-    width: 90vw;
-    margin: 10px;
+    width: 100vw;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 130px;
+}
+
+.contentFood, .contentDrinks, .contentDessert{
+    overflow: auto;
+    display: flex;
+    margin-left: 10px;
+    gap: 15px;
 }
 
 h1{
     font-weight: 700;
     font-size: 20px;
-    margin: 20px 0px;
+    margin-left: 10px;
+    margin: 20px 10px 20px;
 }
 
-.pratos{
+.opcoes{
     width: 250px;
     height: 335px;
     background-color: #fcfcfc;
@@ -50,7 +64,7 @@ h1{
     border-radius: 14px;
 }
 
-.conteudo{
+.opcao{
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -58,18 +72,17 @@ h1{
 
 .descricaoProduto{
     margin-left: 10px;
-    border: 1px solid red;
     height: 40%;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
 }
 
-.conteudo img{
+img{
     width: 250px;
     height: 180px;
     border-radius: 14px;
-    display: block;
+    object-fit: cover;
 }
 
 .nomePrato{
@@ -88,6 +101,34 @@ h1{
     font-size: 16px;
     font-weight: 700;
     color: #3A3A3A;
+}
+
+footer{
+    height: 5rem;
+    width: 100%;
+    background-color: #5F5D5D;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentFooter{
+    width: 303px;
+    height: 50px;
+    border-radius: 1.5rem;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentFooter .select{
+    color: #999999;
+    text-align: center;
+    font-weight: 700;
 }
 
 
