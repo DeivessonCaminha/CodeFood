@@ -5,13 +5,13 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        
     }
 
     .contentFood, .contentDrinks, .contentDessert{
-        width: 90%;
+        width: 95%;
         justify-content: center;
         justify-content: space-evenly;
+        margin-right: 10px;
         
     }
 }
