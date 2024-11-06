@@ -35,7 +35,7 @@ ion-icon{
 }
 
 main{
-    width: 100vw;
+    width: 100%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -123,12 +123,28 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
-.contentFooter .select{
-    color: #999999;
+.contentFooter #btnAction{
+    color: #515151;
     text-align: center;
     font-weight: 700;
+    font-size: 16px;
 }
+
+.contentFooter button{
+    border: none;
+    background-color: #D9D9D9;
+    width: 303px;
+    height: 50px;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffa600;
+}
+
 
 
