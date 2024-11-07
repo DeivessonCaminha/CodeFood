@@ -12,6 +12,19 @@
         justify-content: center;
         justify-content: space-evenly;
         margin-right: 10px;
-        
+    }
+
+    .opcao{
+        transition:  0.1s ease;
+        border-radius: 14px;
+    }
+
+    .opcao img{
+
+    }
+
+    .opcao:hover{
+        border: 3px solid orange;
+        border-radius: 14px;
     }
 }

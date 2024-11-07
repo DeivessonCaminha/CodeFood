@@ -58,16 +58,19 @@ h1{
 
 .opcoes{
     width: 250px;
-    height: 335px;
+    height: 330px;
     background-color: #fcfcfc;
     display: flex;
     border-radius: 14px;
+    cursor: pointer;
 }
 
 .opcao{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 14px;
+    width: 100%;
 }
 
 .descricaoProduto{
@@ -78,8 +81,8 @@ h1{
     flex-direction: column;
 }
 
-img{
-    width: 250px;
+.opcoes img{
+    width: 245px;
     height: 180px;
     border-radius: 14px;
     object-fit: cover;
